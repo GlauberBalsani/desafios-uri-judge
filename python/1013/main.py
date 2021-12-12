@@ -16,3 +16,10 @@
 
 #print(f"{maior} eh o maior")    
 
+sami = input().split()
+a = int(sami[0])
+b = int(sami[1])
+c = int(sami[2])
+maior = max(a,b,c)
+print(f"{maior} eh o maior")
+
